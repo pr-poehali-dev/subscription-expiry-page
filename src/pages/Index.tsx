@@ -7,7 +7,7 @@ export default function Index() {
   return (
     <div className="min-h-screen gradient-bg flex items-center justify-center p-5">
       <div className="w-full max-w-lg">
-        <Card className="glass-card rounded-3xl px-12 pt-8 pb-12 text-center animate-scale-in shadow-2xl">
+        <Card className="glass-card rounded-3xl p-12 text-center animate-scale-in shadow-2xl">
           {/* Logo */}
           <div className="inline-block" style={{marginBottom: '20px'}}>
             <img 
