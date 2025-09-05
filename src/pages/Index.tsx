@@ -48,15 +48,14 @@ export default function Index() {
             <Button 
               asChild
               size="lg"
-              className="bg-[#FBB040] hover:bg-[#FBB040]/90 text-white font-semibold px-8 py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+              className="bg-[#FBB040] hover:bg-[#FBB040] text-black hover:text-white border-2 border-transparent hover:border-white font-semibold px-8 py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             >
               <a 
                 href="https://poehali.dev/p/pay?show=subs" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex items-center gap-2"
+                className=""
               >
-                <Icon name="CreditCard" size={20} />
                 Продлить подписку
               </a>
             </Button>
