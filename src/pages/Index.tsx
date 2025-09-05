@@ -20,7 +20,7 @@ export default function Index() {
           </div>
           
           {/* Title */}
-          <h1 className="text-4xl font-bold mb-6 gradient-text animate-fade-in">
+          <h1 className="text-4xl font-bold mb-6 text-white animate-fade-in">
             Подписка истекла
           </h1>
           
