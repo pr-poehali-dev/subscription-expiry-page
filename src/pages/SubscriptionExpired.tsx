@@ -17,16 +17,7 @@ export default function SubscriptionExpired() {
         
         <div className="message">
           <p>
-            Ваша подписка на сервис{' '}
-            <a 
-              href="https://poehali.dev/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              style={{ color: '#FBB040', textDecoration: 'none', fontWeight: '600' }}
-            >
-              Поехали!
-            </a>{' '}
-            закончилась.
+            Ваша подписка на сервис <a href="https://poehali.dev/" target="_blank" style={{ color: '#FBB040', textDecoration: 'none', fontWeight: '600' }}>Поехали!</a> закончилась.
           </p>
           <p>Чтобы ваш сайт снова заработал, необходимо продлить подписку.</p>
         </div>
@@ -36,7 +27,6 @@ export default function SubscriptionExpired() {
             href="https://poehali.dev/p/pay?show=subs" 
             className="btn-primary" 
             target="_blank"
-            rel="noopener noreferrer"
           >
             Продлить подписку
           </a>
