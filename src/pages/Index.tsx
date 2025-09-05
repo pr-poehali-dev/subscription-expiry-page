@@ -48,7 +48,7 @@ export default function Index() {
             <Button 
               asChild
               size="lg"
-              className="bg-[#FBB040] hover:bg-[#FBB040] text-black hover:text-white border-2 border-transparent hover:border-white font-semibold px-8 py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+              className="w-full bg-[#FBB040] hover:bg-[#FBB040] text-black hover:text-white border-2 border-transparent hover:border-white font-semibold px-8 py-4 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <a 
                 href="https://poehali.dev/p/pay?show=subs" 
