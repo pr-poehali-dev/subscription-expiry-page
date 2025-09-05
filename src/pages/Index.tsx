@@ -61,21 +61,6 @@ export default function Index() {
               </a>
             </Button>
           </div>
-          
-          {/* Additional Info */}
-          <div className="mt-8 pt-6 border-t border-white/10 animate-fade-in">
-            <p className="text-white/50 text-sm">
-              Нужна помощь?{' '}
-              <a 
-                href="https://t.me/+QgiLIa1gFRY4Y2Iy" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-coral hover:underline transition-all duration-300"
-              >
-                Напишите в Telegram
-              </a>
-            </p>
-          </div>
         </Card>
       </div>
     </div>
