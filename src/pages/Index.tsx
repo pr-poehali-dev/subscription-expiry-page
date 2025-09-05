@@ -25,17 +25,12 @@ export default function Index() {
           </h1>
           
           {/* Message */}
-          <div className="mb-8 text-white/80 leading-relaxed animate-fade-in space-y-3">
+          <div className="mb-8 text-[#cccccc] leading-relaxed animate-fade-in space-y-3">
             <p>
               Ваша подписка на сервис{' '}
-              <a 
-                href="https://poehali.dev/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-coral font-semibold hover:underline transition-all duration-300"
-              >
-                Поехали!
-              </a>{' '}
+              <span className="text-[#cccccc]">
+                «Поехали!»
+              </span>{' '}
               закончилась.
             </p>
             <p>
