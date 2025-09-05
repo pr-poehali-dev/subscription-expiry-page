@@ -9,7 +9,7 @@ export default function Index() {
       <div className="w-full max-w-lg">
         <Card className="glass-card rounded-3xl px-12 pt-8 pb-12 text-center animate-scale-in shadow-2xl">
           {/* Logo */}
-          <div className="mb-8 inline-block">
+          <div className="inline-block" style={{marginBottom: '20px'}}>
             <img 
               src="https://poehali.dev/_next/static/media/logo.1d9d82a2.svg" 
               alt="Поехали!" 
